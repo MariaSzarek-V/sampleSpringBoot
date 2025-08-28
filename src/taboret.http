@@ -1,0 +1,19 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### Send POST request with json body
+POST localhost:8080/v1/taborets
+Content-Type: application/json
+
+{
+  "name": "arek taboret",
+  "description": "super taboret"
+}
+
+### GET exist taboret
+GET http://localhost:8080/v1/taborets/1
+
+
+### GET not exist taboret
+GET http://localhost:8080/v1/taborets/12
