@@ -4,12 +4,9 @@ GET https://v3.football.api-sports.io/status
 x-rapidapi-host:v3.football.api-sports.io
 x-rapidapi-key:3a263e195713aaef25d730cc3cbca2f9
 
-###
-GET http://localhost:8080/taborets/all
-Content-Type: application/json
-Accept: application/json
 
 ###
-GET http://localhost:8080/taborets/5
-Content-Type: application/json
-Accept: application/json
+GET https://apiv3.apifootball.com/api/?action=get_countries&APIkey=eee5028bd4f1a9645f0de3b18aa4c17c11a0eedd815aeaacf2cae4d5801e8969
+
+###
+GET https://dummyjson.com/products/1
