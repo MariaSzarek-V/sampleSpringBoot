@@ -16,4 +16,9 @@ GET http://localhost:8080/v1/taborets/1
 
 
 ### GET not exist taboret
+//i to wyglada inaczej niz to nizej
 GET http://localhost:8080/v1/taborets/12
+
+### GET not exist cartoon
+//to wyglada inaczej niz to wyzej
+GET http://localhost:8080/cartoon/1
