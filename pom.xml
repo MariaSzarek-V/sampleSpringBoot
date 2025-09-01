@@ -66,6 +66,8 @@
             <scope>test</scope>
         </dependency>
 
+
+<!--dwa kolejne dependency zeby poszlo API-->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
